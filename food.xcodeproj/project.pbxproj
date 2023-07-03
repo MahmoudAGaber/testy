@@ -10,6 +10,8 @@
 		0E24B524A94627F60D5EFFB9 /* Pods_foodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512613C3A3483D83C6AAE45D /* Pods_foodTests.framework */; };
 		142A36E02A34B080003A11A1 /* DishesLanscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142A36DE2A34B080003A11A1 /* DishesLanscapeCollectionViewCell.swift */; };
 		142A36E12A34B080003A11A1 /* DishesLanscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 142A36DF2A34B080003A11A1 /* DishesLanscapeCollectionViewCell.xib */; };
+		142A81E92A470FC700C07826 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142A81E82A470FC700C07826 /* ApiResponse.swift */; };
+		142A81EB2A4A011000C07826 /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142A81EA2A4A011000C07826 /* AllDishes.swift */; };
 		1471A2062A2F332700694AC6 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471A2052A2F332700694AC6 /* OnBoardingCollectionViewCell.swift */; };
 		1471A2092A2F9B2500694AC6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471A2082A2F9B2500694AC6 /* HomeViewController.swift */; };
 		1471A20E2A2FB7A400694AC6 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471A20C2A2FB7A400694AC6 /* CategoryCollectionViewCell.swift */; };
@@ -30,6 +32,7 @@
 		14D330282A3B21DB006C6A76 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D330272A3B21DB006C6A76 /* NetworkServices.swift */; };
 		14D3302A2A3B23D3006C6A76 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D330292A3B23D3006C6A76 /* Route.swift */; };
 		14D3302C2A3B24A8006C6A76 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3302B2A3B24A8006C6A76 /* Method.swift */; };
+		14D571E52A3F746500A324A6 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D571E42A3F746500A324A6 /* AppError.swift */; };
 		14D68F202A38D9D400B8F16E /* DishesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D68F1F2A38D9D400B8F16E /* DishesDetailsViewController.swift */; };
 		14D68F222A38DB4E00B8F16E /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D68F212A38DB4E00B8F16E /* UIViewController+extension.swift */; };
 		14D68F272A38FA9300B8F16E /* dishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D68F252A38FA9300B8F16E /* dishListTableViewCell.swift */; };
@@ -68,6 +71,8 @@
 		056FD49B8E859CAF7C81A814 /* Pods-food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-food.release.xcconfig"; path = "Target Support Files/Pods-food/Pods-food.release.xcconfig"; sourceTree = "<group>"; };
 		142A36DE2A34B080003A11A1 /* DishesLanscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesLanscapeCollectionViewCell.swift; sourceTree = "<group>"; };
 		142A36DF2A34B080003A11A1 /* DishesLanscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishesLanscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		142A81E82A470FC700C07826 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		142A81EA2A4A011000C07826 /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
 		1471A2052A2F332700694AC6 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		1471A2082A2F9B2500694AC6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1471A20C2A2FB7A400694AC6 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -92,6 +97,7 @@
 		14D330272A3B21DB006C6A76 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 		14D330292A3B23D3006C6A76 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		14D3302B2A3B24A8006C6A76 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		14D571E42A3F746500A324A6 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		14D68F1F2A38D9D400B8F16E /* DishesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesDetailsViewController.swift; sourceTree = "<group>"; };
 		14D68F212A38DB4E00B8F16E /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
 		14D68F252A38FA9300B8F16E /* dishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dishListTableViewCell.swift; sourceTree = "<group>"; };
@@ -241,6 +247,7 @@
 				1471A2102A2FBAE200694AC6 /* DishesCategoryModel.swift */,
 				14DC82192A31E75700F5D948 /* DishModel.swift */,
 				14D68F302A39FF2500B8F16E /* Ordermodel.swift */,
+				142A81EA2A4A011000C07826 /* AllDishes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -294,6 +301,8 @@
 				14D330272A3B21DB006C6A76 /* NetworkServices.swift */,
 				14D330292A3B23D3006C6A76 /* Route.swift */,
 				14D3302B2A3B24A8006C6A76 /* Method.swift */,
+				14D571E42A3F746500A324A6 /* AppError.swift */,
+				142A81E82A470FC700C07826 /* ApiResponse.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -646,6 +655,7 @@
 				1471A20E2A2FB7A400694AC6 /* CategoryCollectionViewCell.swift in Sources */,
 				14BCDE962A2E99DD00D291F1 /* OnBoardingViewController.swift in Sources */,
 				14D68F202A38D9D400B8F16E /* DishesDetailsViewController.swift in Sources */,
+				142A81E92A470FC700C07826 /* ApiResponse.swift in Sources */,
 				14BCDE992A2E9DDB00D291F1 /* UIView+extension.swift in Sources */,
 				1471A2132A308BFB00694AC6 /* String-Extension.swift in Sources */,
 				142A36E02A34B080003A11A1 /* DishesLanscapeCollectionViewCell.swift in Sources */,
@@ -654,10 +664,12 @@
 				14D3302A2A3B23D3006C6A76 /* Route.swift in Sources */,
 				14D68F2C2A38FFEC00B8F16E /* DishListCategotyViewController.swift in Sources */,
 				14BCDE9B2A2E9F1F00D291F1 /* OnBoardingSlideModel.swift in Sources */,
+				142A81EB2A4A011000C07826 /* AllDishes.swift in Sources */,
 				14D68F272A38FA9300B8F16E /* dishListTableViewCell.swift in Sources */,
 				1471A2062A2F332700694AC6 /* OnBoardingCollectionViewCell.swift in Sources */,
 				14BCDE622A2E5F4B00D291F1 /* AppDelegate.swift in Sources */,
 				14D68F2F2A39FE3600B8F16E /* OrderListViewController.swift in Sources */,
+				14D571E52A3F746500A324A6 /* AppError.swift in Sources */,
 				14DC82172A31E40100F5D948 /* DishesPortriaCollectionViewCell.swift in Sources */,
 				14DC821A2A31E75700F5D948 /* DishModel.swift in Sources */,
 				1471A2092A2F9B2500694AC6 /* HomeViewController.swift in Sources */,
