@@ -1,4 +1,5 @@
 //
+//
 //  DishesCategoryModel.swift
 //  food
 //
@@ -8,6 +9,13 @@
 import Foundation
 
 
-struct DishesCategoryModel{
-    let id, name, image: String
+struct DishesCategoryModel: Decodable{
+    let id, name, image: String?
+
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name = "title"
+        case image
+    }
 }
+
